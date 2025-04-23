@@ -100,7 +100,6 @@ body {
 }
 
 
-/* استایل‌های جدید برای صفحات پروژه‌ها و مقالات */
 .project-details {
     display: flex;
     flex-direction: column;
@@ -160,7 +159,6 @@ body {
     background-color: #156619;
 }
 
-/* رسپانسیو */
 @media (max-width: 768px) {
     .projects, .articles {
         flex-direction: column;

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقالات من</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- سایدبار -->
+        <div class="sidebar">
+            <div class="avatar">
+                <img src="th.png" alt="عکس پروفایل">
+            </div>
+            <button class="menu" onclick="location.href='index.html'">خانه</button>
+            <button class="menu" onclick="location.href='projects.html'">پروژه‌ها</button>
+            <button class="menu active">مقالات</button>
+        </div>
+
+        <!-- محتوای اصلی -->
+        <div class="main">
+            <div class="profile-box">
+                <h1>مائده على محمدى</h1>
+                <p>دانشجوی رشته مهندسی کامپیوتر دانشگاه صنعتی امیرکبیر - بهار 1404</p>
+            </div>
+
+            <div class="section">
+                <h3>فیلتر مقالات</h3>
+                <div class="filter-options">
+                    <div class="filter-group">
+                        <label for="subject">موضوع:</label>
+                        <select id="subject">
+                            <option value="all">همه</option>
+                            <option value="engineering">مهندسی</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="year">سال:</label>
+                        <select id="year">
+                            <option value="all">همه</option>
+                            <option value="1403">1403</option>
+                            <option value="1404">1404</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>آخرین مقالات</h3>
+                <div class="articles">
+                    <div class="article">
+                        <h4>موضوع: برنامه نویسی وب </h4>
+                        <p>این متن صرفا برای پر کردن این قسمت است</p>
+                        <p>سال انتشار: 1404 </p>
+                        <button class="read-more">خواندن</button>
+                    </div>
+                    <div class="article">
+                        <h4>موضوع: حملات روز صفر</h4>
+                        <p>این متن صرفا برای پر کردن این  قسمت است</p>
+                        <p>سال انتشار: 1403</p>
+                        <button class="read-more">خواندن</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

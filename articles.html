@@ -26,18 +26,18 @@
             </header>
 
             <section class="section">
-                <h3>فیلتر مقالات</h3>
-                <div class="filter-options">
+                <h3 id="filterHeading">فیلتر مقالات</h3>
+                <div class="filter-options" role="group" aria-labelledby="filterHeading">
                     <div class="filter-group">
-                        <label for="subject">موضوع:</label>
-                        <select id="subject">
+                        <label for="subject" id="subjectLabel">موضوع:</label>
+                        <select id="subject" aria-labelledby="subjectLabel filterHeading" aria-describedby="subjectHelp">
                             <option value="all">همه</option>
                             <option value="engineering">مهندسی</option>
                         </select>
                     </div>
                     <div class="filter-group">
-                        <label for="year">سال:</label>
-                        <select id="year">
+                        <label for="year" id="yearLabel">سال:</label>
+                        <select id="year" aria-labelledby="yearLabel filterHeading" aria-describedby="yearHelp">
                             <option value="all">همه</option>
                             <option value="1403">1403</option>
                             <option value="1404">1404</option>

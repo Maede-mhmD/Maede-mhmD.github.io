@@ -120,7 +120,7 @@ body {
 }
 
 .project-info h4 {
-    color: #4CAF50;
+    color: #15522b;
     margin-bottom: 10px;
 }
 
@@ -150,8 +150,8 @@ body {
 }
 
 .read-more {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #63c967;
+    color: rgb(12, 35, 165);
     border: none;
     padding: 8px 16px;
     border-radius: 25px;
